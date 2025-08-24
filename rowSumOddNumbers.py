@@ -12,4 +12,4 @@
 # 2 --> 3 + 5 = 8
 
 def rowSumOddNumbers(n):
-  return n**3
+  return n*n*n
