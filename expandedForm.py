@@ -7,15 +7,18 @@
 # NOTE: All numbers will be whole numbers greater than 0.
 
 def expandedForm(num):
-  result = ""
-  length = len(str(num))  
-  while(num != 0):
-    result += str(num)[0] 
-    result += "0"*(length-1)
-    if(length-1 != 0):
-      result += " + " 
-    num = num % 10**(length-1)
+    result = ""
     length = len(str(num))
-  return result
+    
+    while num != 0:
+        s = str(num)
+        result += s[0] + "0"*(length-1)
+        num = num % 10**(length-1)
+        length = len(str(num))
+        if num != 0:
+            result += " + "
+    
+    return result
 
-print(expandedForm(12))
+print(expandedForm(12))       
+print(expandedForm(70304))    
