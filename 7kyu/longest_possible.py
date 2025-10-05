@@ -16,7 +16,7 @@ def longest_possible(max_length):
     m, s = map(int, playback.split(':'))
     return m * 60 + s
 
-  valid_songs = [song for song in songs if to_seconds(song['playback']) <= max_length]
+  valid_songs = [song for song in songs if to_seconds(song['playback']) <= max_length] # type: ignore
 
   if not valid_songs:
     return False
