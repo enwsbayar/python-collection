@@ -18,8 +18,7 @@
 # or
 # a = ["az", "toto", "picaro", "zone", "kiwi"] -->
 # "(az, toto picaro zone kiwi)(az toto, picaro zone kiwi)(az toto picaro, zone kiwi)(az toto picaro zone, kiwi)"
-# Note
-# You can see other examples for each language in "Your test cases"
+
 
 def partlist(arr):
   result = []
