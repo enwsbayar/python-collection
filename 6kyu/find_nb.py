@@ -16,5 +16,5 @@
 # printer_error(s) => "8/22"
 
 def printer_error(s):
-    error_count = sum(1 for c in s if c > 'm')
-    return f"{error_count}/{len(s)}"
+  error_count = sum(1 for c in s if c > 'm')
+  return f"{error_count}/{len(s)}"
