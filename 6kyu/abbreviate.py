@@ -19,10 +19,10 @@
 import re
 
 def abbreviate(s):
-    def abbreviate_word(match):
-        word = match.group(0)
-        if len(word) >= 4:
-            return f"{word[0]}{len(word)-2}{word[-1]}"
-        return word
-    
-    return re.sub(r'[a-zA-Z]+', abbreviate_word, s)
+  def abbreviate_word(match):
+    word = match.group(0)
+    if len(word) >= 4:
+      return f"{word[0]}{len(word)-2}{word[-1]}"
+    return word
+  
+  return re.sub(r'[a-zA-Z]+', abbreviate_word, s)
