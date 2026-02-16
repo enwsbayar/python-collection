@@ -7,7 +7,7 @@
 # ordered_count("abracadabra") == [('a', 5), ('b', 2), ('r', 2), ('c', 1), ('d', 1)]
 
 def ordered_count(text):
-    counts = {}
-    for char in text:
-        counts[char] = counts.get(char, 0) + 1
-    return list(counts.items())
+  counts = {}
+  for char in text:
+    counts[char] = counts.get(char, 0) + 1
+  return list(counts.items())
