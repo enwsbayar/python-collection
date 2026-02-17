@@ -10,4 +10,5 @@ def ordered_count(text):
   counts = {}
   for char in text:
     counts[char] = counts.get(char, 0) + 1
+    
   return list(counts.items())
