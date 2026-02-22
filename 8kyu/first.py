@@ -8,6 +8,5 @@
 # first(arr, 2) # --> ['a', 'b']
 # first(arr, 3) # --> ['a', 'b', 'c']
 # first(arr, 0) # --> []
-
 def first(seq, n=1):
   return seq[:n]
