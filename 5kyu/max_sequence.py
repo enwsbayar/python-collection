@@ -22,5 +22,6 @@ def max_sequence(arr):
         max_current = max(0, max_current + num)
         max_global = max(max_global, max_current)
     
+    
     return max_global
 
