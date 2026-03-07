@@ -29,7 +29,7 @@
 # False
 # Good luck and may you find GOOOLD!
 
-# class Ship:
+class Ship:
     def __init__(self, draft, crew):
         self.draft = draft
         self.crew = crew
