@@ -16,6 +16,7 @@
 # Note:
 # Focus attention on efficiency
 
+
 def dbl_linear(n):
   u = [1]
   i2 = i3 = 0
