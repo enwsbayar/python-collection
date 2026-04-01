@@ -15,7 +15,7 @@
 # Detailed rules
 # The resulting expression is made of components like 4 seconds, 1 year, etc. In general, a positive integer and one of the valid units of time, separated by a space. The unit of time is used in plural if the integer is greater than 1.
 
-# The components are separated by a comma and a space (", "). Except the last component, which is separated by " and ", just like it would be written in English.
+# The components are separated by a comma and a space (", "). Except te last component, which is separated by " and ", just like it would be written in English.
 
 # A more significant units of time will occur before than a least significant one. Therefore, 1 second and 1 year is not correct, but 1 year and 1 second is.
 
@@ -31,6 +31,7 @@ def formatDuration(seconds):
 
   result = ""
   total = 0
+
 
 #calculate seconds, minutes, hours, days, years.-----------<
   minutes = hours = days = years = 0 
