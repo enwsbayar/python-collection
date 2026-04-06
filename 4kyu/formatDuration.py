@@ -2,6 +2,7 @@
 
 # The function must accept a non-negative integer. If it is zero, it just returns "now". Otherwise, the duration is expressed as a combination of years, days, hours, minutes and seconds.
 
+
 # It is much easier to understand with an example:
 
 # * For seconds = 62, your function should return 
