@@ -15,5 +15,6 @@
 #                        6
 
 
+
 def calc(s):
 	return 6 * sum(str(ord(ch)).count('7') for ch in s)
