@@ -19,6 +19,7 @@
 # expected output -----> 16
 
 
+
 def beeramid(bonus, price):
 	if bonus <= 0 or price <= 0:
 		return 0
