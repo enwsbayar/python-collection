@@ -85,7 +85,6 @@ def _num_result(value):
 		return int(value)
 	return value
 
-
 def _make_op(op, left, right):
 	if op == "+":
 		if _is_zero(left):
