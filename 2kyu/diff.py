@@ -79,7 +79,6 @@ def _is_zero(node):
 def _is_one(node):
 	return _is_const(node) and _const_value(node) == 1
 
-
 def _num_result(value):
 	if isinstance(value, float) and value.is_integer():
 		return int(value)
