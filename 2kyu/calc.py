@@ -80,7 +80,7 @@ def calc(expression):
 		
 		return left, pos
 	
-	
+
 	def parse_term(tokens, pos):
 		left, pos = parse_factor(tokens, pos)
 		
