@@ -80,6 +80,7 @@ def calc(expression):
 		
 		return left, pos
 	
+	
 	def parse_term(tokens, pos):
 		left, pos = parse_factor(tokens, pos)
 		
@@ -93,6 +94,7 @@ def calc(expression):
 				left = left / right
 		
 		return left, pos
+	
 	
 	def parse_factor(tokens, pos):
 		if pos < len(tokens) and tokens[pos] == '-':
