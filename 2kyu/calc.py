@@ -83,6 +83,7 @@ def calc(expression):
 	def parse_term(tokens, pos):
 		left, pos = parse_factor(tokens, pos)
 		
+		
 		while pos < len(tokens) and tokens[pos] in ['*', '/']:
 			op = tokens[pos]
 			pos += 1
