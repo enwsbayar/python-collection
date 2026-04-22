@@ -76,6 +76,7 @@ def _is_zero(node):
 	return _is_const(node) and _const_value(node) == 0
 
 
+
 def _is_one(node):
 	return _is_const(node) and _const_value(node) == 1
 
