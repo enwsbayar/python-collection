@@ -71,7 +71,6 @@ def _is_const(node):
 def _const_value(node):
 	return node[1]
 
-
 def _is_zero(node):
 	return _is_const(node) and _const_value(node) == 0
 
