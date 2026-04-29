@@ -11,7 +11,6 @@
 # checkCoupon("123", "123", "July 9, 2015", "July 9, 2015")  == True
 # checkCoupon("123", "123", "July 9, 2015", "July 2, 2015")  == False
 
-
 from datetime import datetime
 
 def check_coupon(entered_code, correct_code, current_date, expiration_date):
