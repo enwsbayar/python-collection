@@ -5,6 +5,7 @@
 # The rotten fruit name will be in this camelcase (rottenFruit).
 # The returned array should be in lowercase.
 
+
 def remove_rotten(bag_of_fruits):
 	if not bag_of_fruits:
 		return []
