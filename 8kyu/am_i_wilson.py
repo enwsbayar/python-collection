@@ -29,8 +29,6 @@
 
 def am_i_wilson(p):
     factorial = 1
-
     for i in range(2, p):
         factorial *= i
-
     return (factorial + 1) % (p * p) == 0
