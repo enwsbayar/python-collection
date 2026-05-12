@@ -1,9 +1,7 @@
 # Wilson primes satisfy the following condition. Let 
 # P
 # P represent a prime number.
-
 # Then,
-
 # (
 # P
 # −
