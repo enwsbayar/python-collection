@@ -57,9 +57,6 @@
 #  +y 
 # C
 # ​
- 
-# ​
- 
 # The given points form a real or a degenerate triangle but in each case the above formulas can be used.
 
 # For additional information about this important point of a triangle see at: (https://en.wikipedia.org/wiki/Centroid)
