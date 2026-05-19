@@ -68,6 +68,7 @@
 # ([4, 2], [12, 2], [6, 10]) ------> [7.3333, 4.6667]
 # Enjoy it and happy coding!!
 
+
 def bar_triang(a, b, c):
     x = round((a[0] + b[0] + c[0]) / 3.0, 4)
     y = round((a[1] + b[1] + c[1]) / 3.0, 4)
