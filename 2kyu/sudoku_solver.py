@@ -8,6 +8,7 @@
 # Task:
 # Write a function that solves sudoku puzzles of any difficulty. The function will take a sudoku grid and it should return a 9x9 array with the proper answer for the puzzle.
 # Or it should raise an error in cases of: invalid grid (not 9x9, cell with values not in the range 1~9); multiple solutions for the same puzzle or the puzzle is unsolvable
+
 def sudoku_solver(grid):
 	if not _is_valid_shape(grid):
 		raise ValueError("Invalid grid")
