@@ -11,7 +11,6 @@
 def sudoku_solver(grid):
 	if not _is_valid_shape(grid):
 		raise ValueError("Invalid grid")
-
 	board = [row[:] for row in grid]
 	if not _is_valid_values(board):
 		raise ValueError("Invalid grid")
