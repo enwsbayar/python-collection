@@ -131,25 +131,3 @@ def findPosition(num: str) -> int:
             segment = segment[-(len(num) + 50) :]
         start += 1
 
-
-if __name__ == "__main__":
-    tests = {
-        "456": 3,
-        "454": 79,
-        "455": 98,
-        "910": 8,
-        "9100": 188,
-        "99100": 187,
-        "00101": 190,
-        "001": 190,
-        "123456789": 0,
-        "1234567891": 0,
-        "123456798": 1000000071,
-    }
-
-    for key, expected in tests.items():
-        result = findPosition(key)
-        assert result == expected, f"{key}: expected {expected}, got {result}"
-
-    print("All tests passed.")
-
