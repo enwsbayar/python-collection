@@ -23,6 +23,7 @@
 # Ruby, Python, JS, Coffee, Clojure, PHP, Elixir, Crystal, Typescript, Go:
 # The function called 'game' with parameter n (integer >= 0) returns as result an irreducible fraction written as an array of integers: [numerator, denominator]. If the denominator is 1 return [numerator].
 
+
 # Haskell, Elm:
 # 'game' returns either a "Left Integer" if denominator is 1 otherwise "Right (Integer, Integer)"
 
@@ -41,5 +42,6 @@
 # In Fortran - as in any other language - the returned string is not permitted to contain any redundant trailing whitespace: you can use dynamically allocated character strings.
 
 def game(n):
+	
 	total = n * n
 	return [total // 2] if total % 2 == 0 else [total, 2]
