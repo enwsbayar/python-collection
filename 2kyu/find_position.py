@@ -120,7 +120,6 @@ def findPosition(num: str) -> int:
     if best_position is not None:
         return best_position
 
-
     start = 1
     segment = ""
     while True:
