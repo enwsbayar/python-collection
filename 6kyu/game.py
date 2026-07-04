@@ -35,7 +35,7 @@
 
 # Fortran, Bash: 'game' returns a string
 
-# Forth:
+# Forth
 
 # return on the stack the numerator and the denominator (even if the denominator is 1)
 
