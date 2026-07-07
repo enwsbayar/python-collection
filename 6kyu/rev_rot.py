@@ -33,4 +33,5 @@ def rev_rot(strng, sz):
 		else:
 			chunks.append(chunk[1:] + chunk[0])
 
+
 	return "".join(chunks)
