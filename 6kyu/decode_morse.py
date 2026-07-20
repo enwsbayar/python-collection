@@ -46,7 +46,6 @@ MORSE_CODE = {
     '---..': '8', '----.': '9', '...---...': 'SOS'
 }
 
-
 def decodeMorse(morse_code):
     if not morse_code or not morse_code.strip():
         return ""
